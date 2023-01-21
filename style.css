@@ -132,6 +132,26 @@ nav .fa{
     display: none;
 }
 
+/* -------- button -----------*/
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.button:hover{
+    border: 1px solid #1F1F1F;
+    background-color: #A41623;
+    transition: .5s;
+    color: #1F1F1F;
+}
 
 /* -------- banner -----------*/
 
@@ -162,7 +182,6 @@ nav .fa{
 
 #highlights{
     padding: 80px 0;
-    background-color: #1F1F1F;
     color:white;
 }
 
@@ -221,7 +240,6 @@ nav .fa{
 
 /* -------- about me -----------*/
 #about-me{
-    background: #1F1F1F;
     padding-bottom: 50px;
     padding-top: 50px;
     color: white;
@@ -238,7 +256,6 @@ nav .fa{
 #social-media{
     padding: 100px 0;
     color: white;
-    background-color: #1F1F1F;
 }
 
 
@@ -254,7 +271,6 @@ nav .fa{
 /* -------- big text section -----------*/
 #big-text{
     padding: 100px 0;
-    background-color: #1F1F1F;
     color: white;
 }
 
@@ -291,5 +307,4 @@ nav .fa{
 
 #footer{
     color: #707070;
-    background-color: #1F1F1F;
 }
