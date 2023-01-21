@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Courier New', sans-serif;
+    background-color: #1F1F1F;
+}
+
+
+body{
+    font-family: sans-serif;
+}
+
+
+/* -------- nav bar -----------*/
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 3px 12px;
+    position: relative;
+    margin: 5px;
+}
+
+/* drop down links*/
+.nav-links ul li ul li{
+    list-style: none;
+}
+
+.nav-links ul li ul li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #086788;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+/*this drop downs items*/
+.nav-links ul li ul li:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+
+}
+
+/*the main items*/
+.nav-links ul li:hover{
+    transition: .5s;
+}
+
+.nav-links ul li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #A41623;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-links ul li:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.nav-links ul ul {
+    display: none;
+    position: absolute;
+}
+
+
+.nav-links ul ul li{
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    display: inline-block;
+}
+
+
+li>a:after{
+    content: ' +';
+}
+
+
+.nav-links ul li:hover>ul{
+    display: block;
+}
+
+li>a:only-child:after{
+    content: "";
+}
+
+nav .fa{
+    display: none;
+    color: white;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+[id^=drop]{
+    display: none;
+}
+
+
+/* -------- banner -----------*/
+
+#banner{
+    padding-top: 5%;
+    background-color: #1F1F1F;
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.name-heading{
+    font-size: 70px;
+    margin-top: 100px;
+    font-weight: 800;
+}
+.greeting{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+/* -------- highlights -----------*/
+
+#highlights{
+    padding: 80px 0;
+    background-color: #1F1F1F;
+    color:white;
+}
+
+.highlights-img {
+    width: 100px;
+    margin-top: 20px;
+}
+.highlight{
+    padding: 10px;
+    border-style: solid;
+}
+
+.highlight a:hover  {
+    transform: translateY(-10px);
+}
+
+.highlights h4{
+    padding: 5px;
+    margin-top: 20px;
+
+}
+
+.lil-description{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.title::before{
+    content: '';
+    background: #A41623;
+    height: 5px;
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+/*
+.title::after{
+    content: '';
+    background: #a517ba;
+    height: 10px;
+    width:50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+*/
+
+
+/* -------- about me -----------*/
+#about-me{
+    background: #1F1F1F;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: white;
+}
+
+.section-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+    font-family: Rockwell;
+}
+
+/* -------- social media section -----------*/
+#social-media{
+    padding: 100px 0;
+    color: white;
+    background-color: #1F1F1F;
+}
+
+
+.social-icons img{
+    width:60px;
+    transition: .5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+
+}
+
+/* -------- big text section -----------*/
+#big-text{
+    padding: 100px 0;
+    background-color: #1F1F1F;
+    color: white;
+}
+
+.header-text {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+
+
+/*----------- footer -------------*/
+
+
+
+.socials .fa{
+    color: #A41623;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.socials .fa-brands{
+    color: #A41623;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.socials .fa-regular {
+    color: #A41623;
+    margin: 0 13px;
+    cursor: pointer;
+}
+
+#footer{
+    color: #707070;
+    background-color: #1F1F1F;
+}
