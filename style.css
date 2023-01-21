@@ -150,6 +150,7 @@ nav .fa{
     font-size: 70px;
     margin-top: 100px;
     font-weight: 800;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 .greeting{
     font-size: 40px;
@@ -226,7 +227,7 @@ nav .fa{
     font-size: 40px;
     font-weight: 600;
     margin-top: 8%;
-    font-family: Rockwell;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 /* -------- social media section -----------*/
