@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name = "viewport" content="with=device-width, initial-scale = 1.0">
+  <title>Art</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styleSubpages.css">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+        rel="stylesheet" >
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/0bef0d9906.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+
+<! -------------- banner section and nav bar-------------!>
+<section id="banner">
+  <nav>
+    <a href="index.html"><img src= "images/logo.png"></a>
+    <div class = "nav-links" id="navLinks">
+      <i class="fa fa-times" onclick = hideMenu()></i>
+      <ul>
+        <li><a href="interviews.html">interviews</a></li>
+        <li><a href="zines.html">zines</a></li>
+        <li><a href="charDesign.html">character design</a></li>
+        <li><a href="art.html">art</a></li>
+        <a href="" class="button">resume</a>
+      </ul>
+    </div>
+    <i class="fa fa-bars" onclick= showMenu() ></i>
+  </nav>
+  <div class="container">
+    <div class = "row">
+      <div class="col-md-9">
+        <p class="name-heading">Character Design.</p>
+        <p class="greeting">samples of my character design throughout the years</p>
+        <p>art for the thing of the thing</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<! -------------- gallery -------------!>
+<section id="gallery">
+  <div class="row">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0  gallery__column">
+      <img src="images/headshot.png" class="w-100 shadow-1-strong rounded mb-4 ç" alt="Boat on Calm Water"/>
+      <img src="images/headshot.png" class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape"/>
+    </div>
+
+    <div class="col-lg-4 mb-4 mb-lg-0 gallery__column">
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp" class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds"/>
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water"/>
+    </div>
+    <div class="col-lg-4 mb-4 mb-lg-0 gallery__column">
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp" class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea"/>
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp" class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds"/>
+    </div>
+  </div>
+</section>
+
+
+<! -------------- footer section -------------!>
+<section id="social-media">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 about-me">
+        <p class="section-title">follow along</p>
+        <p>im always looking for new opportunities. please reach out!</p>
+        <div class="social-icons">
+          <a href="#"><img src="images/instagram-icon.png"></a>
+          <a href="#"><img src="images/twitter-icon.png"></a>
+          <a href="#"><img src="images/linkedin-icon.png"></a>
+          <a href="#"><img src="images/linkedin-icon.png"></a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="images/network.png" class="img-fluid">
+      </div>
+    </div>
+    <div class="container">
+
+    </div>
+
+  </div>
+</section>
+
+
+<section id="footer">
+  <div class="container text-center">
+    <p class="final-message">coded by hope de jesus 2023 <i class="fa-regular fa-face-smile"></i></p>
+  </div>
+</section>
+
+
+
+
+</body>
+
+<! ---------------JavaScript for Hamburger Toggle Menu ----------------------- !>
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+</html>

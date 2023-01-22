@@ -4,7 +4,7 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     font-family: 'Courier New', sans-serif;
-    background-color: #1F1F1F;
+    background-color: #a89b9d;
 }
 
 
@@ -99,7 +99,7 @@ nav img{
 
 
 .nav-links ul li a{
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 13px;
     display: inline-block;
@@ -132,12 +132,13 @@ nav .fa{
     display: none;
 }
 
+
 /* -------- button -----------*/
 .button{
     display: inline-block;
     text-decoration: none;
-    color: white;
-    border: 1px solid white;
+    color: #1F1F1F;
+    border: 1px solid #1F1F1F;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
@@ -147,22 +148,19 @@ nav .fa{
 }
 
 .button:hover{
-    border: 1px solid #1F1F1F;
-    background-color: white;
+    border: 1px solid #707070;
+    background-color: #A41623;
     transition: .5s;
-    color: #1F1F1F;
+    color: black;
 }
+
 
 /* -------- banner -----------*/
 
 #banner{
     padding-top: 5%;
-    background-color: #1F1F1F;
-    min-height: 100vh;
+    min-height: 85vh;
     width: 100%;
-    color: white;
-    background-position: center;
-    background-size: cover;
     position: relative;
 }
 
@@ -170,79 +168,12 @@ nav .fa{
     font-size: 70px;
     margin-top: 100px;
     font-weight: 800;
+    color: #A41623;
     font-family: 'Rubik Mono One', sans-serif;
 }
 .greeting{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
-}
-
-
-/* -------- highlights -----------*/
-
-#highlights{
-    padding: 80px 0;
-    color:white;
-}
-
-.highlights-img {
-    width: 100px;
-    margin-top: 20px;
-}
-.highlight{
-    padding: 10px;
-    border-style: solid;
-}
-
-.highlight a:hover  {
-    transform: translateY(-10px);
-}
-
-.highlights h4{
-    padding: 5px;
-    margin-top: 20px;
-    font-weight: 40;
-
-
-
-
-}
-
-.lil-description{
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-.title::before{
-    content: '';
-    background: #A41623;
-    height: 5px;
-    width:200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    transform: translateY(63px);
-}
-/*
-.title::after{
-    content: '';
-    background: #a517ba;
-    height: 10px;
-    width:50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    display: block;
-    transform: translateY(8px);
-}
-*/
-
-
-/* -------- about me -----------*/
-#about-me{
-    padding-bottom: 50px;
-    padding-top: 50px;
-    color: white;
 }
 
 .section-title{
@@ -252,12 +183,18 @@ nav .fa{
     font-family: 'Rubik Mono One', sans-serif;
 }
 
-/* -------- social media section -----------*/
-#social-media{
-    padding: 100px 0;
-    color: white;
+/* -------- banner -----------*/
+#gallery{
+    padding: 50px;
+    transition: .3s;
 }
 
+
+/* -------- footer section -----------*/
+#social-media{
+    padding: 100px 0;
+    color: #1F1F1F;
+}
 
 .social-icons img{
     width:60px;
@@ -266,43 +203,6 @@ nav .fa{
 .social-icons a:hover img{
     transform: translateY(-10px);
 
-}
-
-/* -------- big text section -----------*/
-#big-text{
-    padding: 100px 0;
-    color: white;
-}
-
-.header-text {
-    font-size: 36px;
-    font-weight: 600;
-    margin-bottom: 30px;
-}
-
-
-
-
-/*----------- footer -------------*/
-
-
-
-.socials .fa{
-    color: #A41623;
-    margin: 0 13px;
-    cursor: pointer;
-    padding: 18px 0;
-}
-.socials .fa-brands{
-    color: #A41623;
-    margin: 0 13px;
-    cursor: pointer;
-    padding: 18px 0;
-}
-.socials .fa-regular {
-    color: #A41623;
-    margin: 0 13px;
-    cursor: pointer;
 }
 
 #footer{
