@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06deaa86-d1d1-46ec-a127-af71d2f78ca0" name="Changes" comment="delete" />
+    <list default="true" id="06deaa86-d1d1-46ec-a127-af71d2f78ca0" name="Changes" comment="delete">
+      <change afterPath="$PROJECT_DIR$/images/zines/IMG_0344.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/zines/dogorwolf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/zines/ffe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/zines/leonkennedy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art.html" beforeDir="false" afterPath="$PROJECT_DIR$/art.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/charDesign.html" beforeDir="false" afterPath="$PROJECT_DIR$/charDesign.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/zines/do not play dnd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/interviews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styleSubpages.css" beforeDir="false" afterPath="$PROJECT_DIR$/styleSubpages.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zines.html" beforeDir="false" afterPath="$PROJECT_DIR$/zines.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,11 +64,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/kaidejesus" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -63,15 +79,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/kaidejesus" />
       <recent name="$PROJECT_DIR$/kaidejesus/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/zines" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/kaidejesus/images" />
       <recent name="$PROJECT_DIR$/kaidejesus/images/logos" />
       <recent name="$PROJECT_DIR$/kai-dejesus/src" />
-      <recent name="$PROJECT_DIR$/kaidejesus/art.js" />
     </key>
   </component>
   <component name="RunManager">
@@ -106,6 +123,9 @@
       <workItem from="1682984845182" duration="1168000" />
       <workItem from="1690390895740" duration="5920000" />
       <workItem from="1690911625551" duration="21051000" />
+      <workItem from="1691168776409" duration="13297000" />
+      <workItem from="1691600298735" duration="119000" />
+      <workItem from="1692800932992" duration="2528000" />
     </task>
     <task id="LOCAL-00001" summary="bare bones index page">
       <created>1674329800311</created>
@@ -177,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691168617138</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="delete">
+      <created>1691169023291</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1691169023291</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

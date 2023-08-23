@@ -171,6 +171,8 @@ nav .fa{
     color: #A41623;
     font-family: 'Rubik Mono One', sans-serif;
 }
+
+
 .greeting{
     font-size: 30px;
     font-weight: 600;
@@ -327,17 +329,34 @@ nav .fa{
     max-width: 100%;
 }
 
+
+
+
 @media (max-width: 600px) {
-    .episode__content {
-        grid-template-columns: 1fr;
+    .episode {
+        padding: 20px;
+    }
+
+    .chapter-title {
+        font-size: 30px;
+        position: static;
+    }
+
+    .episode__content .title,
+    .episode__content .story {
+        margin: 5px 0;
+    }
+
+    .episode__content .video {
+        padding: 5px 0;
+        grid-column: 1;
+    }
+
+    .name-heading{
+        font-size: 40px;
     }
 }
 
-@media (max-width: 576px) {
-    .episode__content .story {
-        font-size: 15px;
-    }
-}
 
 
 /* -------- footer section -----------*/
