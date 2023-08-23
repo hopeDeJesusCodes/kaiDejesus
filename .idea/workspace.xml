@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06deaa86-d1d1-46ec-a127-af71d2f78ca0" name="Changes" comment="delete">
-      <change afterPath="$PROJECT_DIR$/images/zines/IMG_0344.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/zines/dogorwolf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/zines/ffe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/zines/leonkennedy.jpg" afterDir="false" />
+    <list default="true" id="06deaa86-d1d1-46ec-a127-af71d2f78ca0" name="Changes" comment="email, info update, responsive">
+      <change afterPath="$PROJECT_DIR$/images/cover.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art.html" beforeDir="false" afterPath="$PROJECT_DIR$/art.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/charDesign.html" beforeDir="false" afterPath="$PROJECT_DIR$/charDesign.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/zines/do not play dnd.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/interviews.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styleSubpages.css" beforeDir="false" afterPath="$PROJECT_DIR$/styleSubpages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zines.html" beforeDir="false" afterPath="$PROJECT_DIR$/zines.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +118,7 @@
       <workItem from="1690911625551" duration="21051000" />
       <workItem from="1691168776409" duration="13297000" />
       <workItem from="1691600298735" duration="119000" />
-      <workItem from="1692800932992" duration="2528000" />
+      <workItem from="1692800932992" duration="5415000" />
     </task>
     <task id="LOCAL-00001" summary="bare bones index page">
       <created>1674329800311</created>
@@ -204,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691169023291</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="email, info update, responsive">
+      <created>1692812327003</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1692812327004</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +234,7 @@
     <MESSAGE value="revamp" />
     <MESSAGE value="changing the index file" />
     <MESSAGE value="delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete" />
+    <MESSAGE value="email, info update, responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="email, info update, responsive" />
   </component>
 </project>
