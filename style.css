@@ -233,6 +233,14 @@ nav .fa{
 }
 */
 
+/* Adjust the size of the cover image */
+.cover-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Maintain the image's aspect ratio */
+    width: 80%; /* Adjust this value to your preference */
+    display: block; /* Prevent any extra spacing issues */
+    margin: 0 auto; /* Center the image horizontally */
+}
 
 /* -------- about me -----------*/
 #about-me{
@@ -240,6 +248,13 @@ nav .fa{
     padding-top: 50px;
     color: white;
 }
+
+/* Adjust the positioning of the about-me section */
+.about-me {
+    margin-top: 50px; /* Increase this value to move the text further down */
+    padding-left: 20px; /* Add padding to the left for better separation */
+}
+
 
 .section-title{
     font-size: 40px;

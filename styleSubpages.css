@@ -317,18 +317,6 @@ nav .fa{
     width: 100%;
 }
 
-.episode__content .video {
-    grid-row: 1 / span 2; /* Span the video over two rows */
-    grid-column: 3; /* Place the video in the third column */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.episode__content .video iframe {
-    max-width: 100%;
-}
-
 
 
 
@@ -347,10 +335,6 @@ nav .fa{
         margin: 5px 0;
     }
 
-    .episode__content .video {
-        padding: 5px 0;
-        grid-column: 1;
-    }
 
     .name-heading{
         font-size: 40px;
