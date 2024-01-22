@@ -18,4 +18,4 @@ Feel free to explore the various projects and sections on the portfolio website.
 
 Thank you for visiting **Kai De Jesus's Portfolio Website**! 🙌
 
-![GIF](https://imgur.com/SOB2167)
+![GIF]([https://imgur.com/SOB2167](https://imgur.com/a/Kl88Tk3)https://imgur.com/a/Kl88Tk3)
